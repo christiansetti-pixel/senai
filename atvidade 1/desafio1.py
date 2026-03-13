@@ -6,4 +6,4 @@ print("a média das notas é: ",media )
 if media >= 7:
     print("o aluno esta aprovado ")
 else:
-   print("o aluno esta reprovado ")
+   print("o aluno esta reprovado")
