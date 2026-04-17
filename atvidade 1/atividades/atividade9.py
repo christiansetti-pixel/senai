@@ -1,15 +1,11 @@
-P = 10
-M = 12
-G = 15
+preço_Pequeno = 10
+preço_Medio = 12
+preço_Grande = 15
 
 
-pequenas = int(input("Quantidade de camisetas PEQUENAS: "))
-medias = int(input("Quantidade de camisetas MÉDIAS: "))
-grandes = int(input("Quantidade de camisetas GRANDES: "))
+quantidade_Pequeno = int(input("Quantidade de camisetas PEQUENAS: "))
+quantidade_Medio= int(input("Quantidade de camisetas MÉDIAS: "))
+quantidade_Grande = int(input("Quantidade de camisetas GRANDES: "))
 
-
-if pequenas < 0 or medias < 0 or grandes < 0:
-    print("Erro: não são permitidos valores negativos.")
-else:
-    total = pequenas * P + medias * M + grandes * G
-    print(f"Valor arrecadado: R$ {total:.2f}")
+valor_arrecadado = (quantidade_Pequeno * preço_Pequeno) + (quantidade_Medio * preço_Medio) + (quantidade_Grande * preço_Grande)
+print("Valor total foi: ", valor_arrecadado)
