@@ -1,0 +1,5 @@
+qtd_blusas = int(input("digite a quantidade de blusas necessárias: "))
+metro_totais = qtd_blusas * 120
+novelos = metro_totais // 125
+
+print(f"Total de novelos necessários: {novelos}")
