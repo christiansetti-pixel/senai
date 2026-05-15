@@ -1,3 +1,5 @@
+print("Boas-Vindas, Christian,Jean,Rafaela.")
+
 import time
 distancia = 100
 
