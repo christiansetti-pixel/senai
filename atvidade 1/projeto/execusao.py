@@ -1,14 +1,19 @@
+import time
 distancia = 100
 
-maior or igaul a 0 
+any  or   0 
 while distancia >= 0:
     print(f"distancia: {distancia} cm")
     if distancia > 10:
         print(" BIP!")
     elif 1 >= distancia <= 10:
-        print(" BIP! BIP! BIP! ( PERIGO )")
+        print(" BIP!")
+        print(" BIP!")
+        print(" BIP!")
+        print("(perigo!)")
     else: 
-        print("COLISAO!")
+        print("COLISAO!, você vai beter!")
     distancia -=10
-    print("-"  * 20)
-    
+    print(" "  * 20)
+    print("você bateu!")
+    time.sleep(1)
