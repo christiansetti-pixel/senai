@@ -12,6 +12,7 @@ while distancia >= 0:
         print(" BIP!")
         print("(perigo!)")
     else: 
+        print("você vai bater")
         print("COLISAO!, você vai beter!")
     distancia -=10
     print(" "  * 20)
