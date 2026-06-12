@@ -9,13 +9,11 @@ while distancia >= 0:
     if distancia > 10:
         print(" BIP!")
     elif 1 >= distancia <= 10:                
-        print(" Bip!")
-        print(" BIP!")
-        print(" Bip!")
-        print("(perigo!)")
+        print("BIP!\n BIP! \n BIP! \n BIP!")
+        print("perigo!")
     else: 
         print("COLISAO!")
     distancia -=10
     print(""  * 20)
-    print("você bateu!")
+    print("você   bateu!")
     time.sleep(1)
